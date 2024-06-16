@@ -1,2 +1,15 @@
-# return-true-if-one-value-is-50.c
-write a program that checks two given integers and return true if atleast one of them is 50 or if their sum is 50
+ #include<stdio.h>
+int main()
+{
+    int a,b;
+    scanf("%d%d",&a,&b);
+    if(a==50||b==50||a+b==50)
+    {
+    printf("true");
+    }
+    else
+    {
+        printf("false");
+    }
+}
+
